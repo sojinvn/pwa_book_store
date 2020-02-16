@@ -31,11 +31,11 @@ export class BooksComponent implements OnInit {
 
   ngOnInit() {
     // Load data from cache first 
-    try {
-      this.loadAllDataFromCache();
-    } catch (err) {
-      console.error(err);
-    }
+    // try {
+    //   this.loadAllDataFromCache();
+    // } catch (err) {
+    //   console.error(err);
+    // }
   }
 
   // Load data from cache first and then update the cache if internet is available
